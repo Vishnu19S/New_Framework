@@ -45,11 +45,11 @@ public class New_Framework_Baseclass {
 		driver.manage().window().maximize();
 	}
 
-	public static void toFetchTitle() {
-		String titleName = driver.getTitle();
-		System.out.println(titleName);
-
-	}
+//	public static void toFetchTitle() {
+//		String titleName = driver.getTitle();
+//		System.out.println(titleName);
+//
+//	}
 
 	public static void toFetchurl() {
 		String url = driver.getCurrentUrl();
